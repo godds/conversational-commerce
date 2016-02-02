@@ -43,12 +43,25 @@
   <div id="title2" class="step" data-x="0" data-y="0">
   </div>
 
-  <div id="slide2" class="step slide right" data-x="0" data-y="100">
-    <div class="content">mibbe</div>
+  <div id="uber-on-messenger" class="step slide right" data-x="0" data-y="300">
+    <div class="content">
+      <video src="img/uber-on-messenger.mp4" preload="auto">
+        Your browser does not support the <code>video</code> element.
+      </video>
+    </div>
   </div>
 
 <script src="js/impress.js"></script>
-<script>impress().init();</script>
+<script>
+  impress().init();
+
+  document.getElementById("impress")
+          .addEventListener("impress:stepenter", function(e) {
+            if (e.srcElement.id == "uber-on-messenger") {
+              e.srcElement.getElementsByTagName("video")[0].play();
+            }
+          });
+</script>
 
 
 </body>
