@@ -1,20 +1,67 @@
 body {
-  background-color: #fafafa;
+  background-color: rgba(35, 31, 32, 0.15);
   color: #231f20;
-  font-family: sans-serif;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 3em;
+  font-weight: 300;
   line-height: 1.4;
   min-height: 740px;
 }
 .step {
-  width: 1200px;
-  height: 800px;
   position: relative;
   margin: 0;
   opacity: 0;
   transition: opacity 0.6s;
+  box-sizing: border-box;
 }
-.step.past,
+.step.past {
+  opacity: 0.5;
+}
 .step.present,
 .step.active {
   opacity: 1;
+}
+.slide {
+  width: 1200px;
+}
+.slide > .content {
+  position: absolute;
+  padding: 25px 40px;
+}
+.slide > .content::before {
+  content: '';
+  width: 0px;
+  height: 0px;
+  border: 20px solid transparent;
+  position: absolute;
+  top: 10px;
+}
+.slide.left > .content {
+  left: 0;
+  background-color: #2bb3bb;
+  color: #ffffff;
+}
+.slide.left > .content::before {
+  left: -60px;
+  border-right: 40px solid #2bb3bb;
+}
+.slide.right > .content {
+  right: 0;
+  background-color: #ffffff;
+}
+.slide.right > .content::before {
+  right: -60px;
+  border-left: 40px solid #ffffff;
+}
+#title {
+  height: 200px;
+}
+#title > .content {
+  width: 990px;
+}
+#slide2 {
+  height: 100px;
+}
+#slide2 > .content {
+  width: 200px;
 }
