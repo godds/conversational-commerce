@@ -6,6 +6,7 @@ body {
   font-weight: 300;
   line-height: 1.4;
   min-height: 740px;
+  position: relative;
 }
 .step {
   position: relative;
@@ -53,11 +54,40 @@ body {
   right: -60px;
   border-left: 40px solid #ffffff;
 }
+#logo {
+  transition: all 0.6s;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  margin-left: -100px;
+  width: 200px;
+}
+#logo path,
+#logo rect {
+  fill: #231f20;
+}
+.impress-on-title #logo {
+  bottom: 250px;
+  margin-left: -150px;
+  width: 375px;
+}
+.impress-on-scott-logic #logo {
+  bottom: 50%;
+  margin-left: -250px;
+  width: 500px;
+}
 #title {
-  height: 200px;
+  height: 400px;
+  font-size: 1.223em;
 }
 #title > .content {
-  width: 990px;
+  width: 1200px;
+}
+.impress-on-title2 #title {
+  opacity: 1;
+}
+.impress-on-scott-logic .step {
+  opacity: 0;
 }
 #slide2 {
   height: 100px;
