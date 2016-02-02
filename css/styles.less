@@ -1,0 +1,29 @@
+// out: styles.css, sourcemap: false, compress: false
+
+@black: #231f20;
+@white: #fafafa;
+@blue: #2bb3bb;
+@pink: #af025c;
+
+@sansFontFamily: sans-serif;
+
+body {
+  background-color: @white;
+  color: @black;
+  font-family: @sansFontFamily;
+  line-height: 1.4;
+  min-height: 740px;
+}
+
+.step {
+  width: 1200px;
+  height: 800px;
+  position: relative;
+  margin: 0;
+  opacity: 0;
+  transition: opacity 0.6s;
+
+  &.past, &.present, &.active {
+    opacity: 1;
+  }
+}
