@@ -186,3 +186,9 @@ body {
 #omni-channel-embracing > .content {
   width: 680px;
 }
+#paym {
+  height: 500px;
+}
+#paym > .content {
+  width: 300px;
+}
