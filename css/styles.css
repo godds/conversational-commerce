@@ -109,14 +109,36 @@ body {
   left: 10px;
   width: 200px;
 }
+#thats-nice {
+  height: 300px;
+}
 #uber-on-messenger {
-  height: 655px;
+  height: 700px;
 }
 #uber-on-messenger > .content {
   width: 1120px;
 }
 #uber-on-messenger > .content > video {
   width: 100%;
+}
+#slack {
+  height: 200px;
+  font-size: 0;
+}
+#slack > .content img {
+  width: 450px;
+}
+#slash-command-demo {
+  height: 200px;
+}
+#slash-command-demo svg {
+  width: 100px;
+  opacity: 0.5;
+  position: absolute;
+  right: 0;
+}
+#more-to-banking {
+  height: 300px;
 }
 #whatsapp-quote {
   height: 600px;
