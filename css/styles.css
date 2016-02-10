@@ -192,3 +192,9 @@ body {
 #paym > .content {
   width: 300px;
 }
+#architecture {
+  height: 800px;
+}
+#architecture > .content {
+  width: 900px;
+}
