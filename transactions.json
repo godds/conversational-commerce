@@ -1,0 +1,50 @@
+[
+  {
+    "label": "Airport Express",
+    "amount": "£7.50",
+    "date": "08 Feb",
+    "tags": [ "food", "expenses" ]
+  },
+  {
+    "label": "Metro Service",
+    "amount": "£3.73",
+    "date": "08 Feb",
+    "tags": [ "travel", "expenses" ]
+  },
+  {
+    "label": "Nørrebro Bryghus",
+    "amount": "£32.42",
+    "date": "08 Feb",
+    "tags": [ "food", "expenses" ]
+  },
+  {
+    "label": "Bistro Royal",
+    "amount": "£28.12",
+    "date": "09 Feb",
+    "tags": [ "food", "expenses" ]
+  },
+  {
+    "label": "Kirsty Odds",
+    "amount": "+£25.00",
+    "date": "09 Feb",
+    "tags": [ "money" ]
+  },
+  {
+    "label": "Metro Service",
+    "amount": "£3.73",
+    "date": "10 Feb",
+    "tags": [ "travel", "expenses" ]
+  },
+  {
+    "label": "Tesco, Haddington",
+    "amount": "£68.42",
+    "date": "10 Feb",
+    "tags": [ "food" ]
+  },
+  {
+    "label": "Black Bull",
+    "amount": "£14.32",
+    "date": "10 Feb",
+    "tags": [ "drink" ]
+  }
+]
