@@ -15,11 +15,9 @@ body {
   transition: opacity 0.6s;
   box-sizing: border-box;
 }
-.step.past {
-  opacity: 0.3;
-}
 .step.present,
-.step.active {
+.step.active,
+.step.past {
   opacity: 1;
 }
 .slide {
