@@ -77,14 +77,17 @@ body {
   margin-left: -250px;
   width: 500px;
 }
-#title {
+#title,
+#title-summary {
   height: 400px;
   font-size: 1.142em;
 }
-#title > .content {
+#title > .content,
+#title-summary > .content {
   width: 1120px;
 }
-.impress-on-title2 #title {
+.impress-on-title2 #title,
+.impress-on-title2 #title-summary {
   opacity: 1;
 }
 .impress-on-scott-logic .step {
@@ -256,4 +259,19 @@ body {
 }
 #architecture > .content {
   width: 900px;
+}
+#on-top-of-existing-systems,
+#interchange-with-people {
+  height: 700px;
+}
+#on-top-of-existing-systems > .content,
+#interchange-with-people > .content {
+  width: 900px;
+}
+#channel-shifting {
+  height: 500px;
+  font-size: 0;
+}
+#channel-shifting > .content img {
+  width: 500px;
 }
