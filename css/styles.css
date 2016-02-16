@@ -112,6 +112,18 @@ body {
   left: 10px;
   width: 200px;
 }
+#whatsapp-stats1 {
+  height: 200px;
+  font-size: 0;
+}
+#whatsapp-stats1 > .content img {
+  width: 400px;
+}
+#whatsapp-stats2,
+#whatsapp-stats3,
+#whatsapp-stats4 {
+  height: 150px;
+}
 /* Banking */
 #thats-nice {
   height: 300px;
