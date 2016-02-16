@@ -195,27 +195,6 @@ body {
 #evidence-of-convenience > .content {
   width: 850px;
 }
-#search1 {
-  height: 140px;
-}
-#search1 > .content {
-  width: 1000px;
-}
-#search2 {
-  height: 200px;
-}
-#search2 > .content {
-  width: 730px;
-}
-#search3 {
-  height: 200px;
-}
-#search3 > .content {
-  width: 380px;
-}
-#compare-to-slack-commands {
-  height: 200px;
-}
 /* Conversation */
 #making-it-conversational {
   height: 200px;
@@ -242,11 +221,11 @@ body {
   width: 1000px;
 }
 #starship-titanic {
-  height: 500px;
-  /*font-size: 0;*/
+  height: 700px;
+  font-size: 0;
 }
 #starship-titanic > .content img {
-  width: 400px;
+  width: 800px;
 }
 #bot {
   height: 500px;
@@ -255,22 +234,28 @@ body {
 #bot > .content {
   width: 400px;
 }
-#product-hunt {
+#product-hunt,
+#product-hunt-play {
   height: 800px;
 }
-#product-hunt > .content {
+#product-hunt > .content,
+#product-hunt-play > .content {
   width: 1000px;
 }
-#product-hunt > .content > video {
+#product-hunt > .content > video,
+#product-hunt-play > .content > video {
   width: 100%;
 }
-#lark {
+#lark,
+#lark-play {
   height: 700px;
 }
-#lark > .content {
+#lark > .content,
+#lark-play > .content {
   width: 322px;
 }
-#lark > .content > video {
+#lark > .content > video,
+#lark-play > .content > video {
   width: 100%;
 }
 #build-chat-app,
