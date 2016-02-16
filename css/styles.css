@@ -172,15 +172,22 @@ body {
   position: absolute;
   right: 0;
 }
-#paym {
-  height: 500px;
-  font-size: 0;
-}
-#paym > .content {
-  width: 300px;
-}
 #so-what {
   height: 200px;
+}
+#in-context1 {
+  height: 200px;
+  font-size: 0;
+}
+#in-context1 > .content {
+  width: 1000px;
+}
+#in-context2 {
+  height: 200px;
+  font-size: 0;
+}
+#in-context2 > .content {
+  width: 550px;
 }
 #evidence-of-convenience {
   height: 650px;

@@ -2,49 +2,61 @@
   {
     "label": "Airport Express",
     "amount": "£7.50",
-    "date": "08 Feb",
+    "date": "18 Feb",
     "tags": [ "food", "expenses" ]
   },
   {
     "label": "Metro Service",
     "amount": "£3.73",
-    "date": "08 Feb",
+    "date": "18 Feb",
     "tags": [ "travel", "expenses" ]
   },
   {
     "label": "Nørrebro Bryghus",
     "amount": "£32.42",
-    "date": "08 Feb",
+    "date": "18 Feb",
     "tags": [ "food", "expenses" ]
   },
   {
     "label": "Bistro Royal",
     "amount": "£28.12",
-    "date": "09 Feb",
+    "date": "19 Feb",
     "tags": [ "food", "expenses" ]
   },
   {
     "label": "Kirsty Odds",
     "amount": "+£25.00",
-    "date": "09 Feb",
+    "date": "19 Feb",
     "tags": [ "money" ]
   },
   {
     "label": "Metro Service",
     "amount": "£3.73",
-    "date": "10 Feb",
+    "date": "19 Feb",
     "tags": [ "travel", "expenses" ]
   },
   {
     "label": "Tesco, Haddington",
     "amount": "£68.42",
-    "date": "10 Feb",
+    "date": "20 Feb",
     "tags": [ "food" ]
   },
   {
     "label": "Black Bull",
     "amount": "£14.32",
-    "date": "10 Feb",
+    "date": "23 Feb",
+    "tags": [ "drink" ]
+  },
+  {
+    "label": "Indian Cavalry Club",
+    "amount": "£145.00",
+    "date": "23 Feb",
+    "tags": [ "food", "shared" ]
+  },
+  {
+    "label": "Queen's Arms",
+    "amount": "£23.30",
+    "date": "23 Feb",
     "tags": [ "drink" ]
   }
 ]
