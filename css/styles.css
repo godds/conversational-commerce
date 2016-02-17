@@ -312,6 +312,7 @@ body {
 }
 #architecture {
   height: 700px;
+  font-size: 0;
 }
 #architecture > .content {
   width: 900px;
@@ -319,6 +320,7 @@ body {
 #on-top-of-existing-systems,
 #interchange-with-people {
   height: 700px;
+  font-size: 0;
 }
 #on-top-of-existing-systems > .content,
 #interchange-with-people > .content {
