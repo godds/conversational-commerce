@@ -389,7 +389,30 @@ body {
   right: 0;
 }
 /* why conversation */
+#why-conversation {
+  height: 300px;
+}
+#voice {
+  height: 200px;
+}
+#low-hanging-fruit {
+  height: 200px;
+}
 #history-of-computing {
+  height: 200px;
+  font-size: 0;
+}
+#history-of-computing > .content {
+  width: 880px;
+}
+#cli-gui-nui {
+  height: 200px;
+  font-size: 0;
+}
+#cli-gui-nui > .content {
+  width: 700px;
+}
+#natural-user-interface {
   height: 200px;
 }
 #slash-panic-demo {
