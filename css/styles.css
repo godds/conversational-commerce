@@ -67,25 +67,27 @@ body {
 }
 .impress-on-title #logo {
   bottom: 250px;
-  margin-left: -150px;
-  width: 375px;
+  margin-left: -200px;
+  width: 400px;
 }
 .impress-on-scott-logic #logo {
   bottom: 50%;
   margin-left: -250px;
   width: 500px;
 }
-#title,
-#title-summary {
+.impress-on-thank-you #logo {
+  bottom: 80%;
+  margin-left: -175px;
+  width: 350px;
+}
+#title {
   height: 400px;
   font-size: 1.142em;
 }
-#title > .content,
-#title-summary > .content {
+#title > .content {
   width: 1120px;
 }
-.impress-on-title2 #title,
-.impress-on-title2 #title-summary {
+.impress-on-title2 #title {
   opacity: 1;
 }
 .impress-on-scott-logic .step {
@@ -425,6 +427,13 @@ body {
   position: absolute;
   right: 0;
 }
+/* Summary */
+#title-summary {
+  height: 200px;
+}
+#should-be {
+  height: 200px;
+}
 #omni-channel-touching {
   height: 700px;
 }
@@ -436,4 +445,27 @@ body {
 }
 #omni-channel-embracing > .content {
   width: 680px;
+}
+#its-up-to-you {
+  height: 200px;
+}
+#agree {
+  height: 200px;
+}
+#thank-you {
+  text-align: center;
+}
+#thank-you h1 {
+  font-size: 1.5em;
+}
+#thank-you h2 {
+  font-size: 1em;
+  padding: 0;
+  margin: 0;
+  margin-top: 3em;
+}
+#thank-you h3 {
+  font-size: 0.8em;
+  padding: 0;
+  margin: 0;
 }
