@@ -251,6 +251,7 @@ body {
 #lark,
 #lark-play {
   height: 700px;
+  font-size: 0;
 }
 #lark > .content,
 #lark-play > .content {
@@ -327,13 +328,6 @@ body {
 #on-top-of-existing-systems > .content,
 #interchange-with-people > .content {
   width: 900px;
-}
-#not-clippy {
-  height: 400px;
-  font-size: 0;
-}
-#not-clippy > .content img {
-  width: 360px;
 }
 /* Security */
 #what-about-security {
