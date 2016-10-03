@@ -183,6 +183,49 @@ body {
     width: 600px;
   }
 }
+
+#microsoft-quote {
+  height: 300px;
+  > .content {
+
+    blockquote {
+      padding: 0 20px;
+      margin: 20px 0;
+      font-size: 0.8em;
+      border-left: 10px solid fade(@black, 25%);
+      quotes: "\201C""\201D""\2018""\2019";
+
+      &:before {
+        color: fade(@black, 40%);
+        content: open-quote;
+        font-size: 3em;
+        line-height: 0.1em;
+        vertical-align: -0.4em;
+      }
+      p {
+        display: inline;
+        font-style: italic;
+        em {
+          font-style: normal;
+        }
+      }
+      footer {
+        .logo {
+          width: 200px;
+          display: block;
+          margin: 20px 20px 0 20px;
+        }
+        p {
+          font-size: 0.7em;
+          font-style: normal;
+          margin: 0;
+          margin-left: 18px;
+          padding: 0;
+        }
+      }
+    }
+  }
+}
 #messenger-apis2 {
   height: 210px;
   font-size: 0;
@@ -430,7 +473,6 @@ body {
 #already-is {
   height: 200px;
 }
-
 
 #boa-quote {
   height: 600px;
