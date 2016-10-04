@@ -125,6 +125,13 @@ body {
 #whatsapp-stats4 {
   height: 150px;
 }
+#conversational-ui {
+  height: 850px;
+  font-size: 0;
+}
+#conversational-ui > .content img {
+  width: 400px;
+}
 /* Banking */
 #thats-nice {
   height: 300px;
